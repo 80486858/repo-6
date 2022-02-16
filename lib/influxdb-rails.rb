@@ -48,7 +48,9 @@ module InfluxDB
             open_timeout:   cfg.open_timeout,
             read_timeout:   cfg.read_timeout,
             max_delay:      cfg.max_delay,
-            time_precision: cfg.time_precision
+            time_precision: cfg.time_precision,
+            prefix:	        cfg.prefix,
+            auth_method:    cfg.auth_method
         end
       end
 
