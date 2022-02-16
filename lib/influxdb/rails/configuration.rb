@@ -41,7 +41,9 @@ module InfluxDB
         open_timeout:   5,
         read_timeout:   300,
         max_delay:      30,
-        time_precision: "s".freeze
+        time_precision: "s".freeze,
+        prefix:	 "/api/v1/influxdb".freeze,
+        auth_method:	 "basic_auth".freeze
       )
 
       def initialize
