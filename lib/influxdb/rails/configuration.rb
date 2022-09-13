@@ -34,7 +34,7 @@ module InfluxDB
         username:       "root".freeze,
         password:       "root".freeze,
         database:       nil,
-        auth_method:    "params".freeze,
+        auth_method:    "basic_auth".freeze,
         async:          true,
         use_ssl:        false,
         retry:          nil,
@@ -42,8 +42,7 @@ module InfluxDB
         read_timeout:   300,
         max_delay:      30,
         time_precision: "s".freeze,
-        prefix:	 "/api/v1/influxdb".freeze,
-        auth_method:	 "basic_auth".freeze
+        prefix:         "/api/v1/influxdb".freeze,
       )
 
       def initialize
