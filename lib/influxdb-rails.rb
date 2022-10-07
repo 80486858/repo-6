@@ -49,7 +49,7 @@ module InfluxDB
             read_timeout:   cfg.read_timeout,
             max_delay:      cfg.max_delay,
             time_precision: cfg.time_precision,
-            prefix:	        cfg.prefix,
+            prefix:	        cfg.prefix
         end
       end
 
