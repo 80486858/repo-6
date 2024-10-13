@@ -80,7 +80,7 @@ jobs:
             raw,latest
 
       - name: Build the production images
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v6
         with:
           file: ./dockerfiles/Dockerfile
           context: .
@@ -102,7 +102,7 @@ jobs:
             raw,latest-debug
 
       - name: Build the debug multi-arch images
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v6
         with:
           file: ./dockerfiles/Dockerfile
           context: .
