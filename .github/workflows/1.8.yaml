@@ -246,7 +246,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       name: Checkout the docker build repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: '1.8'
         repository: fluent/fluent-bit-docker-image
@@ -535,7 +535,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         path: ci
         repository: calyptia/fluent-bit-ci

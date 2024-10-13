@@ -246,7 +246,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - continue-on-error: true
       run: 'echo "::add-matcher::.github/actionlint-matcher.json"
 
@@ -504,7 +504,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - continue-on-error: true
       uses: reviewdog/action-hadolint@v1
       with:
@@ -759,7 +759,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - continue-on-error: true
       run: "if [[ $(grep -R -E 'uses:[ ]*fluent/fluent-bit/.github/workflows/.*@[^master].*$'\
         \ .github/workflows/*.y*ml| wc -l) -gt 0 ]]; then\n  echo \"Found reusable\
@@ -1015,7 +1015,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - continue-on-error: true
       uses: ludeeus/action-shellcheck@master
       with:

@@ -25,7 +25,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Get dependencies
       run: |
@@ -66,7 +66,7 @@ jobs:
     runs-on: windows-2019
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - run: |
         docker build -t fluent/fluent-bit:windows-${{ github.sha }} -f ./dockerfiles/Dockerfile.windows .
