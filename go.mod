@@ -8,7 +8,7 @@ require (
 	github.com/go-test/deep v1.1.0
 	github.com/hashicorp/go-version v1.6.0
 	github.com/hashicorp/hc-install v0.6.4
-	github.com/hashicorp/hcl/v2 v2.20.1
+	github.com/hashicorp/hcl/v2 v2.22.0
 	github.com/hashicorp/terraform-exec v0.20.0
 	github.com/otiai10/copy v1.14.0
 	github.com/pkg/errors v0.9.1
