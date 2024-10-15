@@ -247,7 +247,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: ruby/setup-ruby@22fdc77bf4148f810455b226c90fb81b5cbc00a7
+      uses: ruby/setup-ruby@f26937343756480a8cb3ae1f623b9c8d89ed6984
       with:
         bundler-cache: true
         ruby-version: ${{ matrix.ruby }}
