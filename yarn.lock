@@ -1259,10 +1259,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-commander@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-5.0.0.tgz#dbf1909b49e5044f8fdaf0adc809f0c0722bdfd0"
-  integrity sha512-JrDGPAKjMGSP1G0DUoaceEJ3DZgAfr/q6X7FVk4+U5KxUSKviYGM2k6zWkfyyBHy5rAtzgYJFa1ro2O9PtoxwQ==
+commander@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-11.0.0.tgz#43e19c25dbedc8256203538e8d7e9346877a6f67"
+  integrity sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==
 
 commander@^2.20.0:
   version "2.20.3"
@@ -1299,10 +1299,10 @@ core-js-compat@^3.20.0, core-js-compat@^3.20.2:
     browserslist "^4.19.1"
     semver "7.0.0"
 
-core-js@3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
-  integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
+core-js@3.33.1:
+  version "3.33.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.33.1.tgz#ef3766cfa382482d0a2c2bc5cb52c6d88805da52"
+  integrity sha512-qVSq3s+d4+GsqN0teRCJtM6tdEEXyWxjzbhVrCHmBS5ZTM0FS2MOS0D13dUXAWDUN6a+lHI/N1hF9Ytz6iLl9Q==
 
 cross-spawn@^7.0.2:
   version "7.0.3"
@@ -1658,12 +1658,12 @@ get-symbol-description@^1.0.0:
     get-intrinsic "^1.1.1"
 
 gherkin-lint@:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/gherkin-lint/-/gherkin-lint-4.2.2.tgz#01e8276902fd7b7394babebd9d1f4d1952648a2f"
-  integrity sha512-+vu0wbrwxaaEdrheU9pH2MYR6zk38u2IkrCIg6IETUw1lkrNVAfIfOCihwrrL2NTJv5Iia/C7hZEBNwjGSkL2Q==
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/gherkin-lint/-/gherkin-lint-4.2.4.tgz#5c1965d3c4ecf773d580917018823cf31f798116"
+  integrity sha512-iM+ECIHOF6Wh94YIF1hSHA6JH9rzcgozlMLHA/uCzGtQiMjb/uL093eh1nTpfoJ/38veL7Jfh4yY2inu7uUoFA==
   dependencies:
-    commander "5.0.0"
-    core-js "3.6.4"
+    commander "11.0.0"
+    core-js "3.33.1"
     gherkin "9.0.0"
     glob "7.1.6"
     lodash "4.17.21"
