@@ -194,12 +194,13 @@ GEM
       railties (>= 5.2, < 7.1)
       responders (>= 2, < 4)
     io-wait (0.2.1)
-    jasmine (2.99.0)
-      jasmine-core (>= 2.99.0, < 3.0.0)
+    jasmine (3.99.0)
+      jasmine-core (= 3.99.0)
       phantomjs
-      rack (>= 1.2.1)
+      rack (>= 2.1.4)
       rake
-    jasmine-core (2.99.2)
+      webrick
+    jasmine-core (3.99.0)
     jdbc-sqlite3 (3.28.0)
     jquery-rails (4.4.0)
       rails-dom-testing (>= 1, < 3)
