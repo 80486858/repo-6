@@ -9,7 +9,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.0.0-RC3
 	go.opentelemetry.io/otel/trace v1.0.0-RC3
 	go.opentelemetry.io/proto/otlp v0.9.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.35.1
 )
 
 replace go.opentelemetry.io/otel/exporters/otlp/otlptrace => ../
