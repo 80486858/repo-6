@@ -3,12 +3,18 @@ module go.opentelemetry.io/otel/exporters/zipkin
 go 1.15
 
 require (
-	github.com/google/go-cmp v0.5.6
-	github.com/openzipkin/zipkin-go v0.2.5
-	github.com/stretchr/testify v1.7.0
-	go.opentelemetry.io/otel v1.0.0-RC3
-	go.opentelemetry.io/otel/sdk v1.0.0-RC3
-	go.opentelemetry.io/otel/trace v1.0.0-RC3
+	github.com/Shopify/sarama v1.19.0 // indirect
+	github.com/Shopify/toxiproxy v2.1.4+incompatible // indirect
+	github.com/google/go-cmp v0.6.0
+	github.com/gorilla/context v1.1.1 // indirect
+	github.com/gorilla/mux v1.6.2 // indirect
+	github.com/openzipkin/zipkin-go v0.4.3
+	github.com/pierrec/lz4 v1.0.2-0.20190131084431-473cd7ce01a1 // indirect
+	github.com/streadway/amqp v0.0.0-20190404075320-75d898a42a94 // indirect
+	github.com/stretchr/testify v1.9.0
+	go.opentelemetry.io/otel v1.22.0
+	go.opentelemetry.io/otel/sdk v1.21.0
+	go.opentelemetry.io/otel/trace v1.22.0
 )
 
 replace go.opentelemetry.io/otel/bridge/opencensus => ../../bridge/opencensus
