@@ -874,7 +874,7 @@ jobs:
         fetch-depth: 2
     - continue-on-error: true
       name: Set up QEMU
-      uses: docker/setup-qemu-action@v2
+      uses: docker/setup-qemu-action@v3
     - continue-on-error: true
       uses: actions/setup-go@v3
       with:
