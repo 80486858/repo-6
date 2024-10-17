@@ -269,7 +269,7 @@ jobs:
         GITHUB_STATUS_REPORTER: ${{ !env.ACT }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         VALIDATE_ALL_CODEBASE: false
-      uses: megalinter/megalinter/flavors/go@v5
+      uses: megalinter/megalinter/flavors/go@v8
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid2/risset/act.$(date
         +%s)
